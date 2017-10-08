@@ -12,6 +12,9 @@
 		2AD52D021F89FEE50090F7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD52D001F89FEE50090F7A3 /* Main.storyboard */; };
 		2AD52D041F89FEE50090F7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD52D031F89FEE50090F7A3 /* Assets.xcassets */; };
 		2AD52D071F89FEE50090F7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD52D051F89FEE50090F7A3 /* LaunchScreen.storyboard */; };
+		2AD52D131F8A02260090F7A3 /* personal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD52D121F8A02260090F7A3 /* personal.swift */; };
+		2AD52D151F8A03600090F7A3 /* pictureAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD52D141F8A03600090F7A3 /* pictureAroundView.swift */; };
+		2AD52D1F1F8A0FCD0090F7A3 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AD52D1E1F8A0FCD0090F7A3 /* 11.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2AD52D031F89FEE50090F7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AD52D061F89FEE50090F7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AD52D081F89FEE50090F7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD52D121F8A02260090F7A3 /* personal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personal.swift; sourceTree = "<group>"; };
+		2AD52D141F8A03600090F7A3 /* pictureAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pictureAroundView.swift; sourceTree = "<group>"; };
+		2AD52D1E1F8A0FCD0090F7A3 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		2AD52CFB1F89FEE50090F7A3 /* firstIosAppp */ = {
 			isa = PBXGroup;
 			children = (
+				2AD52D111F8A01FD0090F7A3 /* resource */,
+				2AD52D101F8A01D60090F7A3 /* controller */,
+				2AD52D0F1F8A01D00090F7A3 /* model */,
+				2AD52D0E1F8A01C30090F7A3 /* views */,
 				2AD52CFC1F89FEE50090F7A3 /* AppDelegate.swift */,
-				2AD52CFE1F89FEE50090F7A3 /* ViewController.swift */,
 				2AD52D001F89FEE50090F7A3 /* Main.storyboard */,
 				2AD52D031F89FEE50090F7A3 /* Assets.xcassets */,
 				2AD52D051F89FEE50090F7A3 /* LaunchScreen.storyboard */,
 				2AD52D081F89FEE50090F7A3 /* Info.plist */,
 			);
 			path = firstIosAppp;
+			sourceTree = "<group>";
+		};
+		2AD52D0E1F8A01C30090F7A3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2AD52D141F8A03600090F7A3 /* pictureAroundView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		2AD52D0F1F8A01D00090F7A3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2AD52D121F8A02260090F7A3 /* personal.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2AD52D101F8A01D60090F7A3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AD52CFE1F89FEE50090F7A3 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2AD52D111F8A01FD0090F7A3 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				2AD52D1E1F8A0FCD0090F7A3 /* 11.jpg */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +167,7 @@
 				2AD52D071F89FEE50090F7A3 /* LaunchScreen.storyboard in Resources */,
 				2AD52D041F89FEE50090F7A3 /* Assets.xcassets in Resources */,
 				2AD52D021F89FEE50090F7A3 /* Main.storyboard in Resources */,
+				2AD52D1F1F8A0FCD0090F7A3 /* 11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +180,8 @@
 			files = (
 				2AD52CFF1F89FEE50090F7A3 /* ViewController.swift in Sources */,
 				2AD52CFD1F89FEE50090F7A3 /* AppDelegate.swift in Sources */,
+				2AD52D151F8A03600090F7A3 /* pictureAroundView.swift in Sources */,
+				2AD52D131F8A02260090F7A3 /* personal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYXXP732FH;
 				INFOPLIST_FILE = firstIosAppp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gong.firstIosAppp;
@@ -289,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYXXP732FH;
 				INFOPLIST_FILE = firstIosAppp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gong.firstIosAppp;
